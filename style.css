@@ -1,0 +1,156 @@
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@700&family=Nunito:wght@300&family=Poppins:wght@400;500;700&family=Roboto+Mono:wght@300&family=Roboto:wght@300;400;700;900&family=Sometype+Mono:ital,wght@1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    background-color: white;
+}
+
+#section1{
+    width: 100%;
+    height: 8vh;
+    border: 1px solid black;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+#section1 h1{
+    font-size: 32px;
+    font-weight: 400;
+    background-color: transparent;
+    margin-left: -50px;
+    margin-top: 10px;
+    
+}
+#section1 h1 span{
+    font-size: 32px;
+    font-weight: 900;
+    background-color: transparent;
+}
+
+#section1 .s1-i{
+    width: 20%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    align-items: center;
+    margin-left: -50px;
+}
+#section1 .s1-i i{
+    font-size: 35px;
+}
+#section1 .s1-i div h3:first-child{
+    color: cyan;
+}
+
+#section1 .s1-i1{
+    margin-right: -300px;
+}
+#section1 .s1-i1 i{
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+}
+#section1 .s1-i2{
+    margin-right: -80px;
+}
+#section1 .s1-i2 i{
+    font-size: 30px;
+    /* border: 1px solid black; */
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+}
+
+/* Sectoin 2 */
+
+#sectoin2{
+    height: 89.5vh;
+    width: 25%;
+    border: 1px solid black;
+}
+#sectoin2 .s2-container{
+    height: 85vh;
+    /* width: 80%; */
+    margin: 16px;
+    border: 1px solid black;
+}
+#sectoin2 .s2-container .s2-c1{
+    height: 23%;
+    /* width: 100%; */
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 20px;
+    border: 1px solid black;
+}
+#sectoin2 .s2-container .s2-c1 .profile{
+    display: flex;
+    justify-content: space-between;
+}
+#sectoin2 .s2-container .s2-c1 .profile button{
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bolder;
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+    /* border: none; */
+}
+#sectoin2 .s2-container .s2-c1 .profile img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+
+#sectoin2 .s2-container .s2-c2{
+    height: 10%;
+    border: 1px solid black;   
+    display: flex;
+    /* justify-content: space-around; */
+    /* padding: 10px; */
+}
+
+#sectoin2 .s2-container .s2-c2 div{
+    width: 50%;
+    border: 1px solid black;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+
+#sectoin2 .s2-container .s2-c3 div{
+    /* height: 10%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid black;
+    gap: 1.5rem;
+    padding: 0 3rem;
+    line-height: 40px;
+    margin-bottom: 8px;
+}
+#sectoin2 .s2-container .s2-c3 div i{
+    font-size: 20px;
+}
+
+
+#sectoin2 .s2-container .s2-c4{
+    height: 17%;
+    border: 1px solid black;
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#sectoin2 .s2-container .s2-c4 p:first-child{
+    font-weight: 800;
+}
