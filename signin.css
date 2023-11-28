@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aqua;
+    background-image: url("https://img.freepik.com/free-photo/blurred-cardio-machines_1203-98.jpg?w=1060&t=st=1701006351~exp=1701006951~hmac=9c174c5b6d9b3d73c4acc55aae30a544b61f66771c7229c686db579f2899fe2c");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+#section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+#section .div{
+    width: 30%;
+    height: 70vh;
+    background-color: rgba(255, 255, 255, 0.386);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#section .div h3{
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 391px) {
+    body{
+        background-color: aquamarine;
+        background: rgb(131,58,180);
+        background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(0,194,255,1) 67%, rgba(252,176,69,1) 100%);
+    }
+    #section{
+        margin-top: 17vh;
+    }
+    #section .div {
+        width: 80%;
+        height: 60vh;
+        background-color: rgba(244, 244, 244, 0.42);
+        padding-bottom: 2rem;
+    }
+    #section .div div button{
+        width: 50%;
+    }   
+}
